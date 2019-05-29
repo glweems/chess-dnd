@@ -9,7 +9,7 @@ const containerStyle = {
 /**
  * The Chessboard Tutorial Application
  */
-const ChessboardTutorialApp = () => {
+export const ChessDND = () => {
   const [knightPos, setKnightPos] = useState([1, 7])
   // the observe function will return an unsubscribe callback
   useEffect(() => observe((newPos) => setKnightPos(newPos)))
@@ -19,4 +19,4 @@ const ChessboardTutorialApp = () => {
     </div>
   )
 }
-export default ChessboardTutorialApp
+export default ChessDND
