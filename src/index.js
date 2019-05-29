@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import Example from './example'
 import { DragDropContextProvider } from 'react-dnd'
 import HTML5Backend from 'react-dnd-html5-backend'
+import './App.css'
 
 function App() {
   return (

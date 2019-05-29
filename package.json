@@ -6,20 +6,20 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "now-build": "react-scripts build",
+    "now-build": "yarn run build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "babel-jest": "*",
-    "faker": "*",
-    "immutability-helper": "*",
-    "react": "*",
+    "babel-jest": "^24.8.0",
+    "faker": "^4.1.0",
+    "immutability-helper": "^3.0.0",
+    "react": "^16.8.6",
     "react-dnd": "*",
-    "react-dnd-html5-backend": "*",
-    "react-dom": "*",
-    "react-frame-component": "*",
-    "react-scripts": "*"
+    "react-dnd-html5-backend": "^7.4.4",
+    "react-dom": "^16.8.6",
+    "react-frame-component": "^4.1.0",
+    "react-scripts": "^3.0.1"
   },
   "repository": {
     "type": "git",
