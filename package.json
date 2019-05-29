@@ -1,21 +1,43 @@
 {
   "name": "chess-dnd",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
-  },
+  "version": "0.0.1",
+  "description": "react drag and drop chess example",
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "now-build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "dependencies": {
+    "babel-jest": "*",
+    "faker": "*",
+    "immutability-helper": "*",
+    "react": "*",
+    "react-dnd": "*",
+    "react-dnd-html5-backend": "*",
+    "react-dom": "*",
+    "react-frame-component": "*",
+    "react-scripts": "*"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glweems/chess-dnd.git"
+  },
+  "keywords": [
+    "react",
+    "dnd",
+    "drag-and-drop",
+    "example",
+    "chess"
+  ],
+  "author": "Garrett Weems <gwgraphicdesign@gmail.com> (https://glweems.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glweems/chess-dnd/issues"
+  },
+  "homepage": "https://github.com/glweems/chess-dnd#readme",
   "browserslist": {
     "production": [
       ">0.2%",
