@@ -11,7 +11,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "babel-jest": "^24.8.0",
+    "babel-jest": "^26.0.1",
     "faker": "^4.1.0",
     "immutability-helper": "^3.0.0",
     "react": "^16.8.6",
